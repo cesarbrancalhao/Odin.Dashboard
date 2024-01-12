@@ -1,2 +1,2 @@
-# Odin.Dashboard
-Admin dashboard made with JavaScript.
+# Admin Dashboard
+Dashboard made with JavaScript.
