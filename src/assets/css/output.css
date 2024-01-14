@@ -585,10 +585,6 @@ video {
   margin-left: auto;
 }
 
-.mr-2 {
-  margin-right: 0.5rem;
-}
-
 .mr-auto {
   margin-right: auto;
 }
@@ -776,11 +772,6 @@ video {
   padding-right: 1rem;
 }
 
-.py-1 {
-  padding-top: 0.25rem;
-  padding-bottom: 0.25rem;
-}
-
 .py-2 {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
@@ -789,6 +780,11 @@ video {
 .py-4 {
   padding-top: 1rem;
   padding-bottom: 1rem;
+}
+
+.py-\[0\.2em\] {
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
 }
 
 .pl-4 {
