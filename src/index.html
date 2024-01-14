@@ -34,7 +34,7 @@
         </nav>
         
         <!-- Main -->
-        <main class="flex-1 overflow-auto p-10">
+        <div class="flex-1 overflow-auto p-10">
 
             <header class="px-4 py-4 w-full bg-gray-200 rounded-lg">
 
@@ -62,7 +62,54 @@
 
             </header>
 
-        </main>
+            <!-- Dashboard -->
+            <main class="my-4 rounded-lg">
+
+                <h1 class="text-1xl font-bold mb-2">Your projects</h1>
+                <div class="flex gap-4">
+            
+                    <!-- Projects -->
+                    <section class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4 flex-grow p-3 bg-gray-200 rounded">
+                        
+                        <div class="p-4 border rounded-lg shadow">
+                            <h2 class="font-bold text-lg">Project 1</h2>
+                            <p class="mt-2">Description of project 1.</p>
+                        </div>
+            
+                        <div class="p-4 border rounded-lg shadow">
+                            <h2 class="font-bold text-lg">Project 2</h2>
+                            <p class="mt-2">Description of project 2.</p>
+                        </div>
+
+                        <div class="p-4 border rounded-lg shadow">
+                            <h2 class="font-bold text-lg">Project 3</h2>
+                            <p class="mt-2">Description of project 3.</p>
+                        </div>
+            
+                    </section>
+            
+                    <!-- Announcements and Trending Sections -->
+                    <section class="flex flex-col gap-4 w-1/3 p-3 rounded">
+            
+                        <!-- Announcements Section -->
+                        <div class="flex-1 p-4 border rounded-lg shadow">
+                            <h2 class="font-bold text-lg">Announcement 1</h2>
+                            <p class="mt-2">Details of announcement 1.</p>
+                        </div>
+            
+                        <!-- Trending Section -->
+                        <div class="flex-1 p-4 border rounded-lg shadow">
+                            <h2 class="font-bold text-lg">Trending Item 1</h2>
+                            <p class="mt-2">Details of trending item 1.</p>
+                        </div>
+            
+                    </section>
+            
+                </div>
+            
+            </main> 
+ 
+        </div>
     </div>
 </body>
 </html>
